@@ -23,7 +23,7 @@ public function getLabel(){
     return "$this->penulis, $this->penerbit";
 }
 
-public function getInfoProduk(){
+public function getInfoProduk() {
     $str = "{$this->judul} | {$this->getLabel()} (Rp. {$this->harga})";
 
     return $str;
